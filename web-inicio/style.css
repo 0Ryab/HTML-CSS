@@ -94,6 +94,11 @@ p {
   right: -30px;
 }
 
+.introducao-cover img {
+  object-fit: cover;
+  height: 100%;
+}
+
 .botao {
   background: #e21;
   color: #fff;
@@ -114,7 +119,7 @@ p {
   padding: 40px;
   align-self: center;
   background-image: url("./img/onda.svg");
-  word-wrap: break-word;
+  /* word-break: break-all; Util para quebra de palavras, porem depende! */
 }
 
 .vantagens {
@@ -149,8 +154,23 @@ p {
   padding: 40px;
   box-sizing: border-box;
 }
+
 @media (max-width: 800px) {
+  .header {
+    gap: 30px;
+  }
   .conteudo {
     grid-template-columns: 1fr;
+  }
+  .introducao {
+    text-align: center;
+    justify-items: start;
+  }
+  .subtitulo {
+    text-align: center;
+  }
+  .introducao::before {
+    display: none;
+    justify-items: start;
   }
 }
