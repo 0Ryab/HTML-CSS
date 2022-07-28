@@ -1,19 +1,88 @@
+@font-face {
+  font-family: "Fira-Sans";
+  src: url("Fonts/FiraSans-Regular.ttf");
+}
+html {
+  background: #141414;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 header {
   display: flex;
-
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
 }
 
 .nav__links a {
   text-decoration: none;
+  font-size: 24px;
+  font-family: Fira-Sans;
+  color: white;
 }
 
 ul {
   list-style: none;
 }
+.nav__links {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #141414;
+  border: #000;
+  border-style: groove;
+  margin: 0;
+  padding: 0;
+}
 
-nav {
-  background-color: aqua;
-  height: 850px;
+.nav__links h2 {
+  font-family: Fira-Sans;
+  color: #e0e0e0;
   display: flex;
+  justify-content: center;
+  background: #000;
+  margin-top: 0;
+  height: 90px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  align-items: center;
+}
+
+.nav__links li {
+  padding: 50px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__links .Perfil {
+  display: flex;
+  justify-content: center;
+}
+
+.Menu a:hover {
+  background: black;
+  color: #ceb84c;
+  height: 80px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.Icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  padding: 0px 25px 0px 25px;
+}
+
+.social {
+  margin: 5px;
 }
