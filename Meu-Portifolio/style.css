@@ -10,6 +10,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  grid-template-columns: 1fr 4fr;
 }
 header {
   display: flex;
@@ -48,6 +49,7 @@ ul {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   align-items: center;
+  margin: 0;
 }
 
 .nav__links li {
@@ -60,6 +62,7 @@ ul {
 .nav__links .Perfil {
   display: flex;
   justify-content: center;
+  height: 120px;
 }
 
 .Menu a:hover {
