@@ -97,7 +97,7 @@ ul {
   align-items: center;
   flex-flow: column;
   padding: 0 1 rem;
-  padding-right: 850px;
+  /* padding-right: 850px; */
 }
 
 .titulo p {
@@ -105,4 +105,11 @@ ul {
   font-family: Roboto;
   padding: 0;
   margin: 0;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 0 0 0 1 rem;
 }
