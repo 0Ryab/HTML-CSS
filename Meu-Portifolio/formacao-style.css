@@ -5,6 +5,8 @@
   src: url("Fonts/Roboto-Bold.ttf");
   font-family: "Roboto";
   src: url("Fonts/Roboto-Regular.ttf");
+  font-family: "Roboto-Medium";
+  src: url("Fonts/Roboto-Medium.ttf");
 }
 html {
   background: #141414;
@@ -106,65 +108,77 @@ ul {
 
 .titulo p {
   font-size: 128px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   padding: 0;
   margin: 0;
+  color: #000;
 }
 
-.conteudo {
+.tecnico {
   font-family: Roboto;
   display: flex;
   flex-flow: column;
-  width: 500px;
-  height: 540px;
+  width: 360px;
+  height: 340px;
   position: fixed;
   right: 0;
   top: 0;
-  margin-top: 150px;
-  margin-right: 40px;
-  background: #000;
+  margin-top: 125px;
+  margin-right: 140px;
+  background: rgb(0, 0, 0);
   border-radius: 15px;
 }
 
-.texto {
+.tecnico h2 {
+  font-family: Roboto, sans-serif;
+  color: #ceb84c;
+  padding: 25px 88px 37px 27px;
+  margin: 0;
+}
+
+.tecnico h3 {
+  font-family: Roboto-Medium;
+  padding: 0px 60px 20px 27px;
+}
+
+.tecnico li {
+  font-family: Roboto, sans-serif;
   font-size: 18px;
-  color: #e0e0e0;
-  padding: 33px 30px 0px 20px;
-  margin: 0;
-  text-align: justify;
-  text-justify: inter-word;
-}
-.subtitulo {
-  font-size: 20px;
-  color: #e0e0e0;
-  padding: 0px 80px 0px 20px;
+  padding: 0px 100px 0px 42px;
 }
 
-.conteudo h1 {
-  font-size: 36px;
-  color: #ceb84c;
-  padding: 72px 0px 34px 20px;
+.tecnico p {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  padding: 102px 20px 25px 20px;
+}
+
+.tecnico h3,
+li,
+p {
+  color: #e0e0e0;
   margin: 0;
 }
 
-.endereco {
-  font-size: 16px;
-  color: #ceb84c;
-  padding: 40px 0px 0px 270px;
+.data {
+  display: flex;
+  justify-content: space-between;
 }
+
+.tecnico li {
+  list-style: none;
+}
+
+.tecnico li::before {
+  content: "\2022";
+  color: #ceb84c;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 span {
   color: #ceb84c;
-}
-
-button {
-  color: #e0e0e0;
-  font-size: 26px;
-  position: fixed;
-  right: 175px;
-  bottom: 100px;
-  background: none;
-  width: 230px;
-  height: 90px;
-  border-radius: 10px;
 }
