@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "Fira-Sans";
+  src: url("Fonts/FiraSans-Regular.ttf");
+  font-family: "Roboto-bold";
+  src: url("Fonts/Roboto-Bold.ttf");
+  font-family: "Roboto";
+  src: url("Fonts/Roboto-Regular.ttf");
+}
+html {
+  background: #141414;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  grid-template-columns: 1fr 4fr 4fr;
+}
+header {
+  display: flex;
+  padding: 0px 30px 30px 30px;
+}
+
+.nav__links a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Fira-Sans;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+.nav__links {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #141414;
+  border: #000;
+  border-style: groove;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__links h2 {
+  font-family: Fira-Sans;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  background: #000;
+  margin-top: 0;
+  height: 90px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  align-items: center;
+  margin: 0;
+}
+
+.nav__links li {
+  padding: 50px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__links .Perfil {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+}
+
+.Menu a:hover {
+  background: black;
+  color: #ceb84c;
+  height: 80px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.Icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  padding: 0px 25px 0px 25px;
+}
+
+.social {
+  margin: 5px;
+}
+.simbolo {
+  width: 360px;
+  height: 370px;
+  padding-left: 100px;
+}
+.titulo {
+  display: flex;
+  flex-flow: column;
+  padding-left: 350px;
+}
+
+.titulo p {
+  font-size: 128px;
+  font-family: Roboto;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.conteudo {
+  font-family: Roboto;
+  display: flex;
+  flex-flow: column;
+  width: 500px;
+  height: 540px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-top: 150px;
+  margin-right: 40px;
+  background: #000;
+  border-radius: 15px;
+}
+
+.texto {
+  font-size: 18px;
+  color: #e0e0e0;
+  padding: 33px 30px 0px 20px;
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.subtitulo {
+  font-size: 20px;
+  color: #e0e0e0;
+  padding: 0px 80px 0px 20px;
+}
+
+.conteudo h1 {
+  font-size: 36px;
+  color: #ceb84c;
+  padding: 72px 0px 34px 20px;
+  margin: 0;
+}
+
+.endereco {
+  font-size: 16px;
+  color: #ceb84c;
+  padding: 40px 0px 0px 270px;
+}
+span {
+  color: #ceb84c;
+}
+
+button {
+  color: #e0e0e0;
+  font-size: 26px;
+  position: fixed;
+  right: 175px;
+  bottom: 100px;
+  background: none;
+  width: 230px;
+  height: 90px;
+  border-radius: 10px;
+}
