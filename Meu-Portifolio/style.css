@@ -1,8 +1,10 @@
 @font-face {
   font-family: "Fira-Sans";
   src: url("Fonts/FiraSans-Regular.ttf");
-  font-family: "Roboto";
+  font-family: "Roboto-bold";
   src: url("Fonts/Roboto-Bold.ttf");
+  font-family: "Roboto";
+  src: url("Fonts/Roboto-Regular.ttf");
 }
 html {
   background: #141414;
@@ -12,7 +14,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 4fr 4fr;
 }
 header {
   display: flex;
@@ -91,25 +93,78 @@ ul {
 .social {
   margin: 5px;
 }
-
+.simbolo {
+  width: 360px;
+  height: 370px;
+  padding-left: 100px;
+}
 .titulo {
   display: flex;
-  align-items: center;
   flex-flow: column;
-  padding: 0 1 rem;
-  /* padding-right: 850px; */
+  padding-left: 350px;
 }
 
 .titulo p {
   font-size: 128px;
   font-family: Roboto;
+  font-weight: bold;
   padding: 0;
   margin: 0;
 }
 
 .conteudo {
+  font-family: Roboto;
   display: flex;
-  align-items: center;
   flex-flow: column;
-  padding: 0 0 0 1 rem;
+  width: 500px;
+  height: 540px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-top: 150px;
+  margin-right: 40px;
+  background: #000;
+  border-radius: 15px;
+}
+
+.texto {
+  font-size: 18px;
+  color: #e0e0e0;
+  padding: 33px 30px 0px 20px;
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.subtitulo {
+  font-size: 20px;
+  color: #e0e0e0;
+  padding: 0px 80px 0px 20px;
+}
+
+.conteudo h1 {
+  font-size: 36px;
+  color: #ceb84c;
+  padding: 72px 0px 34px 20px;
+  margin: 0;
+}
+
+.endereco {
+  font-size: 16px;
+  color: #ceb84c;
+  padding: 40px 0px 0px 270px;
+}
+span {
+  color: #ceb84c;
+}
+
+button {
+  color: #e0e0e0;
+  font-size: 26px;
+  position: fixed;
+  right: 175px;
+  bottom: 100px;
+  background: none;
+  width: 230px;
+  height: 90px;
+  border-radius: 10px;
 }
