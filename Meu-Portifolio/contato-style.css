@@ -109,66 +109,124 @@ ul {
   margin: 0;
 }
 
-.conteudo {
+.nome {
   font-family: Roboto;
   display: flex;
   flex-flow: column;
-  width: 500px;
-  height: 540px;
   position: fixed;
-  right: 0;
-  top: 0;
-  margin-top: 150px;
-  margin-right: 40px;
-  background: #000;
-  border-radius: 15px;
+  right: 410px;
+  top: 100px;
 }
 
-.texto {
-  font-size: 18px;
-  color: #e0e0e0;
-  padding: 33px 30px 0px 20px;
-  margin: 0;
-  text-align: justify;
-  text-justify: inter-word;
-}
-.subtitulo {
+.box1 {
   font-size: 20px;
   color: #e0e0e0;
-  padding: 0px 80px 0px 20px;
+  position: fixed;
+  right: 100px;
+  top: 170px;
+}
+input.text {
+  width: 400px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #000;
+  font-family: "Heebo", sans-serif;
+  border: none;
 }
 
-.conteudo h1 {
+.text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nome h1 {
   font-size: 36px;
   color: #ceb84c;
-  padding: 72px 0px 34px 20px;
+  padding: 0;
   margin: 0;
 }
 
-.endereco {
-  font-size: 16px;
-  color: #ceb84c;
-  padding: 40px 0px 0px 270px;
-  text-decoration: underline;
-}
-
-a {
-  text-decoration: none;
-}
-span {
-  color: #ceb84c;
-}
-
-.endereco:hover {
+.box2 {
+  font-size: 20px;
   color: #e0e0e0;
+  position: fixed;
+  right: 100px;
+  top: 310px;
+}
+
+.email {
+  font-family: Roboto;
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+  right: 410px;
+  top: 240px;
+}
+
+.email h1 {
+  font-size: 36px;
+  color: #ceb84c;
+  padding: 0;
+  margin: 0;
+}
+
+.mensagem h1 {
+  font-size: 36px;
+  color: #ceb84c;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+  right: 260px;
+  top: 380px;
+}
+
+.textarea {
+  background-color: #000;
+  color: #e0e0e0;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  font-family: "Heebo", sans-serif;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  width: 400px;
+  height: 300px;
+  position: fixed;
+  right: 95px;
+  top: 450px;
+}
+
+.footer {
+  font-family: Roboto;
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+  right: 50px;
+  top: 800px;
+  font-family: Fira-Sans;
+  font-size: 32px;
+  color: #e0e0e0;
+}
+
+.footer p {
+  padding: 0;
+  line-height: 0px;
+}
+
+.footer span {
+  color: #ceb84c;
 }
 
 .btn {
+  position: fixed;
+  right: 750px;
+  top: 800px;
   color: #e0e0e0;
   font-size: 26px;
-  position: fixed;
-  right: 175px;
-  bottom: 100px;
   background: #141414;
   width: 230px;
   height: 90px;
