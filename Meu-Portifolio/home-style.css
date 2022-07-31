@@ -149,9 +149,18 @@ ul {
   font-size: 16px;
   color: #ceb84c;
   padding: 40px 0px 0px 270px;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
 }
 span {
   color: #ceb84c;
+}
+
+.endereco:hover {
+  color: #e0e0e0;
 }
 
 .btn {
