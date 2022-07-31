@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "Fira-Sans";
+  src: url("Fonts/FiraSans-Regular.ttf");
+  font-family: "Roboto-bold";
+  src: url("Fonts/Roboto-Bold.ttf");
+  font-family: "Roboto";
+  src: url("Fonts/Roboto-Regular.ttf");
+  font-family: "Roboto-Medium";
+  src: url("Fonts/Roboto-Medium.ttf");
+}
+html {
+  background: #141414;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  grid-template-columns: 1fr 4fr 4fr;
+}
+header {
+  display: flex;
+  padding: 0px 30px 30px 30px;
+}
+
+.nav__links a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Fira-Sans;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+.nav__links {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #141414;
+  border: #000;
+  border-style: groove;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__links h2 {
+  font-family: Fira-Sans;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  background: #000;
+  margin-top: 0;
+  height: 90px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  align-items: center;
+  margin: 0;
+}
+
+.nav__links li {
+  padding: 50px 0px 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__links .Perfil {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+}
+
+.Menu a:hover {
+  background: black;
+  color: #ceb84c;
+  height: 80px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.Icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  padding: 0px 25px 0px 25px;
+}
+
+.social {
+  margin: 5px;
+}
+.simbolo {
+  width: 360px;
+  height: 370px;
+  padding-left: 100px;
+  padding-top: 85px;
+}
+.titulo {
+  display: flex;
+  flex-flow: column;
+  padding-left: 350px;
+}
+
+.titulo p {
+  font-size: 128px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+
+.Jovem {
+  font-family: Roboto;
+  display: flex;
+  flex-flow: column;
+  width: 360px;
+  height: 340px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-top: 125px;
+  margin-right: 140px;
+  background: rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+.Jovem h2 {
+  font-family: Roboto, sans-serif;
+  color: #ceb84c;
+  padding: 25px 88px 37px 27px;
+  margin: 0;
+}
+
+.Jovem h3 {
+  font-family: Roboto-Medium;
+  padding: 0px 60px 20px 27px;
+}
+
+.Jovem li {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  padding: 0px 100px 0px 42px;
+}
+
+.Jovem p {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  padding: 45px 20px 25px 20px;
+}
+
+.Jovem h3,
+li,
+p {
+  color: #e0e0e0;
+  margin: 0;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Jovem li {
+  list-style: none;
+}
+
+.Jovem li::before {
+  content: "\2022";
+  color: #ceb84c;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+span {
+  color: #ceb84c;
+}
+
+.adm {
+  font-family: Roboto;
+  display: flex;
+  flex-flow: column;
+  width: 360px;
+  height: 340px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-top: 495px;
+  margin-right: 140px;
+  background: rgb(0, 0, 0);
+  border-radius: 15px;
+}
+
+.adm h2 {
+  font-family: Roboto, sans-serif;
+  color: #ceb84c;
+  padding: 25px 88px 37px 27px;
+  margin: 0;
+}
+
+.adm h3 {
+  font-family: Roboto-Medium;
+  padding: 0px 60px 20px 27px;
+}
+
+.adm li {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  padding: 0px 100px 0px 42px;
+}
+
+.adm p {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  padding: 60px 20px 25px 20px;
+}
+
+.adm h3,
+li,
+p {
+  color: #e0e0e0;
+  margin: 0;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adm li {
+  list-style: none;
+}
+
+.adm li::before {
+  content: "\2022";
+  color: #ceb84c;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+span {
+  color: #ceb84c;
+}

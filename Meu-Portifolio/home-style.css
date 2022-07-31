@@ -12,9 +12,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  grid-template-columns: 1fr 4fr 4fr;
 }
 header {
   display: flex;
@@ -157,14 +154,19 @@ span {
   color: #ceb84c;
 }
 
-button {
+.btn {
   color: #e0e0e0;
   font-size: 26px;
   position: fixed;
   right: 175px;
   bottom: 100px;
-  background: none;
+  background: #141414;
   width: 230px;
   height: 90px;
   border-radius: 10px;
+}
+
+.btn:hover {
+  background: black;
+  color: #ceb84c;
 }
