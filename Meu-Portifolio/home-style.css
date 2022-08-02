@@ -138,6 +138,16 @@ ul {
   padding: 0px 80px 0px 20px;
 }
 
+.detalhe {
+  width: 4px;
+  height: 190px;
+  background: #ffff00;
+  display: inline-block;
+  position: fixed;
+  right: 535px;
+  top: 325px;
+  border-radius: 2px;
+}
 .conteudo h1 {
   font-size: 36px;
   color: #ceb84c;

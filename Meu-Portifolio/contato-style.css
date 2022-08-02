@@ -125,6 +125,17 @@ ul {
   right: 100px;
   top: 170px;
 }
+
+.detalhe {
+  width: 4px;
+  height: 15px;
+  background: #ffff00;
+  display: inline-block;
+  position: fixed;
+  right: 515px;
+  top: 185px;
+  border-radius: 2px;
+}
 input.text {
   width: 400px;
   height: 45px;
@@ -152,6 +163,17 @@ input.text {
   position: fixed;
   right: 100px;
   top: 310px;
+}
+
+.detalhe2 {
+  width: 4px;
+  height: 15px;
+  background: #ffff00;
+  display: inline-block;
+  position: fixed;
+  right: 515px;
+  top: 325px;
+  border-radius: 2px;
 }
 
 .email {
@@ -198,6 +220,16 @@ input.text {
   position: fixed;
   right: 95px;
   top: 450px;
+}
+.detalhe3 {
+  width: 4px;
+  height: 115px;
+  background: #ffff00;
+  display: inline-block;
+  position: fixed;
+  right: 520px;
+  top: 560px;
+  border-radius: 2px;
 }
 
 .footer {
